@@ -13,4 +13,4 @@ header:
 excerpt: "Create an isolated deep learning environment (GPU) with Docker and VSCode."
 ---
 
-TBC.
+TBC. 

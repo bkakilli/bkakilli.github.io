@@ -16,17 +16,25 @@
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
+    {% else %}
+    <!-- <div class="archive__item-teaser" style="float:left; max-width: 200px; height: 100px; margin: auto; margin-right: 20px; display: flex; justify-content: center; align-items: center;"> -->
+    <div class="archive__item-teaser" style="display: table-cell; width: 200px; background-image: url({{ teaser | relative_url }}); background-size: contain; background-position: center; background-repeat: no-repeat;">
+      <!-- <img src="{{ teaser | relative_url }}" alt=""> -->
+    </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+
+    <div class="archive__item-content" style="display: table-cell; padding-left: 20px;">
+      <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0.1em;">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+      {% if post.read_time %}
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </div>
   </article>
 </div>
