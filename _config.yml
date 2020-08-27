@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,9 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Burak Kakillioglu"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://bkakilli.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "bkakilli/bkakilli.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # "/assets/images/avatar.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -110,7 +110,7 @@ author:
       url: "/cv"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/bkakilli"
+      # url: "https://twitter.com/bkakilli"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -122,10 +122,10 @@ author:
     #   url: "https://gitlab.com/bkakilli"
     - label: "ORCID"
       icon: "ai ai-fw ai-orcid-square"
-      url: "https://orcid.org/0000-0001-5649-1839"
+      # url: "https://orcid.org/0000-0001-5649-1839"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square ai-fw"
-      url: "https://scholar.google.com/citations?user=m9F-GmYAAAAJ"
+      # url: "https://scholar.google.com/citations?user=m9F-GmYAAAAJ"
 
       
 
