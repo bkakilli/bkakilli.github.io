@@ -20,6 +20,3 @@ classes: wide
 - M. Cornacchia, Y. Zheng, **B. Kakillioglu**, S. Velipasalar, “Obstacle Detection and Identification with Portable Uncalibrated Patterned Light”, Asilomar Conference 2018. [[paper]](https://ieeexplore.ieee.org/abstract/document/8645346/)
 - **B. Kakillioglu**, S. Velipasalar, "Autonomous altitude measurement and landing area detection for indoor UAV applications" (2016) [[paper]](http://ieeexplore.ieee.org/abstract/document/7738069)
 - **B. Kakillioglu**, S. Velipasalar, "Doorway detection for autonomous indoor navigation of unmanned vehicles" (2016) [[paper]](http://ieeexplore.ieee.org/abstract/document/7533078)
-
-<iframe src="https://www.google.com" title="W3Schools Free Online Web Tutorials" style="width: 100%; height: 600px;">
-</iframe>
