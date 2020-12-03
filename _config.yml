@@ -141,9 +141,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bkakilli"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://github.com/bkakilli"
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   url: "https://github.com/bkakilli"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -280,9 +280,9 @@ compress_html:
 
 # Collections
 collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
   blog_posts:
     output: true
     permalink: /:collection/:path/
