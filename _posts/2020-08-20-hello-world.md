@@ -12,7 +12,7 @@ header:
 excerpt: "My awesome cool blog may contain posts about virtually anything happened in my life. But more on my work, digital stuff, technology and gadgets."
 ---
 
-The title is the ultimate phrase that thrills those who truly passionate about the digital world. Because, to me it is that blinding brightness that welcomes you when you opened the big door to the outside world. It feels like that it is the beginning of endless possibilities. I know it is the common practice to use it on the coding tutorials. But nothing holds you to feel the same way when you begin, well, virtually anything. That's why I would like to salute my adventure with this phrase since it perfectly represents my excitement right now.
+The title is the ultimate phrase that thrills those who truly passionate about the digital world. Because, to me it is that blinding brightness that welcomes you when you opened the big door to the outside world. It feels that it is the beginning of endless possibilities. I know it is the common practice to use it on the coding tutorials. But nothing holds you to feel the same way when you begin, well, virtually anything. That's why I would like to salute my adventure with this phrase since it perfectly represents my excitement right now.
 
 ![Hello, World!](/assets/posts/hello_world/hello_world2.png)
 

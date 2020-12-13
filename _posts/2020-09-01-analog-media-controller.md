@@ -16,7 +16,7 @@ excerpt: "An Arduino-based media controller unit for old-school types like mysel
 
 I like analog stuff and really don't want them to disappear. Controlling devices with knobs and sliders are the most intuitive and psychologically satisfying to me. One day I noticed that I don't have media control buttons on my keyboard of my office desktop, and I was using my mouse for pretty much all the related stuff. I was not gonna let that happen anymore:) I went online and ordered a slider potentiometer. Then I built this cool gadget using some long-forgotten hardware in the lab:
 
-![Hello, World!](/assets/posts/media-controller/teaser.jpeg)
+![Analog Media Controller](/assets/posts/media-controller/teaser.jpeg)
 
 The buttons are for mute (gray), next track (yellow), previous track (blue), and play/pause (green). The awesome slider is obviously for volume control. Pretty neat and useful unit, always within my reach!
 
