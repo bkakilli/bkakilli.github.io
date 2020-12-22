@@ -4,7 +4,26 @@ layout: archive
 
 {{ content }}
 
-<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+<style>
+  #recent_posts:link  {
+    color: inherit;
+    text-decoration: none;
+  }
+  #recent_posts:visited  {
+    color: inherit;
+    text-decoration: none;
+  }
+  #recent_posts:hover  {
+    color: inherit;
+    text-decoration: none;
+  }
+  #recent_posts:active  {
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
+
+<a href="/blog/" id="recent_posts"><h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3></a>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
