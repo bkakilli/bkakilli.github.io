@@ -6,4 +6,4 @@ permalink: /about/
 ---
 
 
-I’m a PhD Candidate on Electrical and Computer Engineering at Syracuse University. I work with Dr. Senem Velipasalar at the Smart Vision Systems Lab. My main research interests are 3D computer vision and machine learning. I’m also interested in robotics and embedded systems. I enjoy coding and building stuff.
+I’m a scientist and engineer. My expertise is in computer vision and machine intelligence. Also interested in robotics and embedded systems. I enjoy building stuff. Certainly a DIY-person. Hobbies include building autonomous things or tech gadgets, skiing, water sports, killing hours on random computer-related stuff.

@@ -20,7 +20,7 @@ title                    : "Burak Kakillioglu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Burak Kakillioglu"
-description              : "An amazing website."
+description              : "Personal website and blog."
 url                      : "https://bkakilli.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bkakilli/bkakilli.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -97,7 +97,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Computer Vision, Robotics, ML."
   location         : "Syracuse, New York"
-  email            : "bkakilli@syr.edu"
+  email            : "bkakillioglu@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
