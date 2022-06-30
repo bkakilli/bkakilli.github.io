@@ -6,8 +6,8 @@ main:
     url: /resume/
   - title: "Publications"
     url: /publications/
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
   - title: "Blog"
     url: /blog/
   # - title: "Quick-Start Guide"
